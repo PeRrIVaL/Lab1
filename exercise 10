@@ -1,0 +1,17 @@
+package pl.lublin.wsei.java.cwiczenia;
+
+public class exercise10 {
+
+    public static void main(String[] args) {
+        System.out.println(leftPad("żydzi", 'S', 5));
+
+    }
+
+    public static String leftPad(String aText, char aChar, int aWidth) {
+        String res = aText;
+        for (int i = 0; i < aWidth - aText.length(); i++)
+            res = aChar + res;
+        return res;
+    }
+}
+
