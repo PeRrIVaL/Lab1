@@ -1,0 +1,14 @@
+package pl.lublin.wsei.java.cwiczenia;
+import java.util.Scanner;
+
+public class Exercise8 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Podaj pierwszą liczbę: ");
+        int num1 = Integer.valueOf(scanner.nextLine());
+        System.out.print("Podaj drugą liczbę: ");
+        int num2 = Integer.valueOf(scanner.nextLine());
+        System.out.print("Wynik dodawania " + num1 + " + " + num2 +" = " + (num1+num2) );
+
+    }
+}
